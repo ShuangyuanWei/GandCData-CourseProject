@@ -1,8 +1,8 @@
 Guidance on how the data is manipulated and cleaned:
 ========================================================
 
-Through the data building and cleaning  process, basically I built "train" and "test" dataset separately by merging each data with its own activity and subject data, then stacked the processed "train" and "test" together, selected out required columns and aggregated the combined dataset. Please be noted that instead of cleaning the variable names after stakcing and merging, I did the variables lables cleaning during the stage of creating dataset header.
-========================================================
+#Through the data building and cleaning  process, basically I built "train" and "test" dataset separately by merging each data with its own activity and subject data, then stacked the processed "train" and "test" together, selected out required columns and aggregated the combined dataset. Please be noted that instead of cleaning the variable names after stakcing and merging, I did the variables lables cleaning during the stage of creating dataset header.#
+
 Specific steps I took to create the tidy dataset:
 
 1. Load "features.txt" and transpose it to be used as header in the later steps, I cleaned the header to let it be descriptive and illegal for R requirements. For example, the original name of the first statistics column is "tBodyAcc-mean()-X", I made it as "tBodyAcc.mean.X" eventually. 
