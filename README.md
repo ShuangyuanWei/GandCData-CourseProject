@@ -1,7 +1,7 @@
-Guidance on how the data is manipulated and cleaned:
-========================================================
+**Guidance on how the data is manipulated and cleaned**:
 
-*Through the data building and cleaning  process, basically I built "train" and "test" dataset separately by merging each data with its own activity and subject data, then stacked the processed "train" and "test" together, selected out required columns and aggregated the combined dataset. Please be noted that instead of cleaning the variable names after stakcing and merging, I did the variables lables cleaning during the stage of creating dataset header.*
+
+*Through the data building and cleaning  process, basically I built "train" and "test" dataset separately by merging each data with its own activity and subject data, then stacked the processed "train" and "test" together, selected out required columns and aggregated the combined dataset. Please be noted that instead of cleaning the variable names after stacking and merging, I did the variables lables cleaning during the stage of creating dataset header.*
 
 Specific steps I took to create the tidy dataset:
 
